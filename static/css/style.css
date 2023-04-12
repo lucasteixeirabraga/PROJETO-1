@@ -1,0 +1,90 @@
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+}
+.imghome{
+    padding-left: 80px;
+}
+.linksHOME{
+    display: flex;
+    flex-direction: row;]
+    justify-content: space-around;
+    padding-right: 80px;
+    gap:15px;
+    /* perguntar como deixar a cor do texto do link preto */
+}
+.titulo{
+    padding-left:80px;
+}
+.textodotit{
+    padding-left: 80px;
+}
+.capa{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.rodapé{
+    text-align: center;
+}
+.main{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.cabecario2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotologo{
+    padding-left: 80px;
+}
+#cont-QS{
+    padding-right: 80px;
+}
+.subtexto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.rodapé-QS{
+    text-align: center;
+}
+.linksQS{
+    display: flex;
+    flex-direction: row;
+    padding-right: 80px;
+    float: right;
+    gap:15px;
+}
+.headercontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-contact{
+    padding-left: 80px;
+}
+.linksCONTACT{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-direction: row;
+    padding-right: 80px;
+}
+.maincontact{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.rodapé-CONTACT{
+    text-align: center;
+    padding-top: 80px;
+}
+/* perguntar porque os links do contato estão mais distantes da direita
+se eu usei padding rigth nos 3 links */
