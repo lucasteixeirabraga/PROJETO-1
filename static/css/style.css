@@ -1,0 +1,121 @@
+body{
+    background-color:white;
+}
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    font-family: Snell Roundhand, cursive ;
+}
+
+.imghome{
+    padding-left: 80px;
+}
+.linksHOME{
+    display: flex;
+    flex-direction: row;]
+    justify-content: space-around;
+    padding-right: 80px;
+    gap:15px;
+}
+.titulo{
+    padding-left:80px;
+    font-family: Snell Roundhand, cursive ;
+}
+.textodotit{
+    padding-left: 80px;
+    font-family: Snell Roundhand, cursive ;
+}
+.capa{
+    padding-top: 20px;
+    text-align: center;
+}
+.rodapé{
+    text-align: center;
+    font-family: Snell Roundhand, cursive ;
+}
+.main{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Snell Roundhand, cursive ;
+}
+.cabecario2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Snell Roundhand, cursive ;
+}
+.fotologo{
+    padding-left: 80px;
+}
+#cont-QS{
+    padding-right: 80px;
+}
+.subtexto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Snell Roundhand, cursive ;
+}
+.rodapé-QS{
+    text-align: center;
+    font-family: Snell Roundhand, cursive ;
+}
+.linksQS{
+    display: flex;
+    flex-direction: row;
+    padding-right: 80px;
+    float: right;
+    gap:15px;
+}
+.headercontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Snell Roundhand, cursive ;
+}
+.img-contact{
+    padding-left: 80px;
+}
+.linksCONTACT{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-direction: row;
+    padding-right: 80px;
+}
+.maincontact{
+    padding-left: 80px;
+    padding-top: 80px;
+    font-family:Snell Roundhand, cursive ;
+}
+.rodapé-CONTACT{
+    text-align: center;
+    padding-top: 80px;
+    font-family: Snell Roundhand, cursive ;
+}
+
+.headerusers{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+.linksUSERS{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    padding-left: 950px;
+    font-family: Snell Roundhand, cursive ;
+    padding-top: 20px;
+}
+.table{
+    border: solid black;
+    margin:0 auto
+}
+
