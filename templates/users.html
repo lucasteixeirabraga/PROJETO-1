@@ -1,0 +1,30 @@
+
+{% extends "base.html" %}
+{% block conteudo %}
+<body>
+    <header class="headerusers"></header>
+    <div class="linksUSERS">
+        <a class="linksu" href="/">Home</a>
+        <a class="linksu" href="/contato">Contato</a>
+        <a class="linksu" href="/quemsomos">Quem somos</a>
+        <a class="linksu" href="/users"> tabela</a>
+        </div>
+    </header>
+    <table class="table">
+        <tr>
+            <th>Email</th>
+            <th>Assunto</th>
+            <th>Descrição</th>
+        </tr>
+        {% for user in userDetails%}
+        <tr>
+            <td>{{ user[0] }}</td>
+            <td>{{ user[1] }}</td>
+            <td>{{ user[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</body>
+</html>
+{% endblock %}
